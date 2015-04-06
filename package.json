@@ -1,0 +1,40 @@
+{
+  "name": "grunt-offline",
+  "description": "Create static offline versions of webpages, complete with assets.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/powercat74/grunt-offline",
+  "author": {
+    "name": "Dustin Hayes",
+    "email": "powercat74@gmail.com",
+    "url": "www.dustinhayes.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/powercat74/grunt-offline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/powercat74/grunt-offline/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/powercat74/grunt-offline/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-html-snapshot": "^0.6.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
